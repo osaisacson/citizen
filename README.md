@@ -104,6 +104,17 @@ Works? Yes? Sweet. No? Contact us at asaisacson@gmail.com
 
 
 
+//WORKFLOW:
+1. git checkout -b name-of-my-branch master
+2. git status
+3. git add
+4. git commit -m
+5. git push
+6. go to https://github.com/citizenly/citizen/pulls and create a pull request
+7. When merging PR into master the changes will automatically be deployed at http://citizenly.herokuapp.com/
+7. if cannot see the pushed changes, see https://help.github.com/articles/configuring-a-remote-for-a-fork/
+
+
 **FROM PREVIOUS README, NOT TESTED, DEPLOY STUFF:**
 
 // Run webpack for Prod
